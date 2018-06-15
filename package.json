@@ -1,0 +1,31 @@
+{
+  "name": "light-random",
+  "version": "0.0.1",
+  "description": "Ultra-lightweight, cryptographically weak, alphanumerical, package-independent random string generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thiagobrez/light-random.git"
+  },
+  "keywords": [
+    "light",
+    "lightwheight",
+    "ultra",
+    "random",
+    "string",
+    "alphanumerical",
+    "crypto",
+    "generator",
+    "password",
+    "independent"
+  ],
+  "author": "Thiago Brezinski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thiagobrez/light-random/issues"
+  },
+  "homepage": "https://github.com/thiagobrez/light-random#readme"
+}
