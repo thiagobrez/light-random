@@ -1,7 +1,9 @@
+'use strict';
+
 /**
  * @author Thiago Brezinski
  *
- * easy-random <https://github.com/thiagobrez/easy-random>
+ * light-random <https://github.com/thiagobrez/light-random>
  */
 const
   SORT_FACTOR = 0.5,

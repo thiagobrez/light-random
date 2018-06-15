@@ -10,16 +10,21 @@ or
 
 `yarn add light-random`
 
+### API
+
+**`lightRandom(length: number): string`**
+
 ### Usage
 
 ```javascript
 var lightRandom = require('light-random');
 
-//or using ES6
-import {lightRandom} from 'light-random';
+lightRandom();
+//default length: 8
+//outputs 'bkiVCGkd'
 
-lightRandom(8);
-//outputs ...
+lightRandom(15);
+//outputs 'NPf78EK3oNPiU3t'
 ```
 
 ### License
