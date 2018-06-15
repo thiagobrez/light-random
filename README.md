@@ -1,28 +1,24 @@
-# easy-random
+# light-random
 
-Lightweight, cryptographically weak, alphanumerical, package-independent random string generator.
+Ultra-lightweight, cryptographically weak, alphanumerical, package-independent random string generator.
 
 ### Installation
 
-`npm install --save easy-random`
+`npm install --save light-random`
 
 or
 
-`yarn add easy-random`
+`yarn add light-random`
 
 ### Usage
 
 ```javascript
-var easyRandom = require('easy-random');
-```
-or
+var lightRandom = require('light-random');
 
-```javascript
-import {easyRandom} from 'easy-random';
-```
+//or using ES6
+import {lightRandom} from 'light-random';
 
-```javascript
-easyRandom(8);
+lightRandom(8);
 //outputs ...
 ```
 

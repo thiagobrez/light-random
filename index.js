@@ -20,7 +20,7 @@ const
  * @param {number} length: generated string length
  * @returns {String}: random string
  */
-function easyRandom(length = DEFAULT_LENGTH) {
+function lightRandom(length = DEFAULT_LENGTH) {
   return getChars(length, []);
 }
 
@@ -54,4 +54,4 @@ function getChars(length, chars) {
     getChars(length, chars);
 }
 
-module.exports = easyRandom;
+module.exports = lightRandom;
