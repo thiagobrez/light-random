@@ -57,3 +57,4 @@ function getChars(length, chars) {
 }
 
 module.exports = lightRandom;
+module.exports.lightRandom = lightRandom;

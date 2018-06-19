@@ -16,9 +16,20 @@ or
 
 ### Usage
 
+Require module
 ```javascript
-var lightRandom = require('light-random');
+const lightRandom = require('light-random');
+```
 
+or import with ES6
+
+```javascript
+import {lightRandom} from 'light-random';
+```
+
+Then call it
+
+```javascript
 lightRandom();
 //default length: 8
 //outputs 'bkiVCGkd'
