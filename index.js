@@ -12,8 +12,8 @@ const
   ASCII_DIGIT_END = 57,
   ASCII_UPPERCASE_START = 65,
   ASCII_UPPERCASE_END = 90,
-  FAKE_ASCII_LOWERCASE_START = 0,
-  FAKE_ASCII_LOWERCASE_END = 25,
+  FAKE_ASCII_LOWERCASE_START = 1,
+  FAKE_ASCII_LOWERCASE_END = 26,
   ASCII_LOWERCASE_START = 97;
 
 /**
@@ -48,7 +48,7 @@ function getChars(length, chars) {
       (charCode >= ASCII_DIGIT_START && charCode <= ASCII_DIGIT_END)) {
       chars.push(String.fromCharCode(charCode));
     } else if (charCode >= FAKE_ASCII_LOWERCASE_START && charCode <= FAKE_ASCII_LOWERCASE_END) {
-      chars.push(String.fromCharCode(charCode + ASCII_LOWERCASE_START));
+      chars.push(String.fromCharCode(charCode + ASCII_LOWERCASE_START - 1));
     }
   }
   return chars.length === length ?
