@@ -14,6 +14,8 @@ or
 
 **`lightRandom(length: number): string`**
 
+Default length: 8
+
 ### Usage
 
 Require module
